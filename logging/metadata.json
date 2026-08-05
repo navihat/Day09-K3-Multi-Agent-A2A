@@ -1,0 +1,23 @@
+{
+  "model": {
+    "name": "llama-3.1-8b-instant",
+    "parameter_size": "8B",
+    "provider": "Groq"
+  },
+  "framework": {
+    "orchestration": "LangGraph",
+    "langgraph_version": "1.2.10"
+  },
+  "runtime": {
+    "python_version": "3.14.3",
+    "os": "Windows-11-10.0.26200-SP0"
+  },
+  "policy_version": "EC_POLICY_V1",
+  "run": {
+    "started_at": "2026-08-05T03:26:14.919337+00:00",
+    "cases_requested": 50,
+    "cases_ok": 50,
+    "cases_failed": [],
+    "elapsed_seconds": 866.3
+  }
+}
